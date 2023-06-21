@@ -1,0 +1,333 @@
+#mainNav {
+    min-height: 3.5rem;
+    background-color: transparent;
+  }
+  #mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: #e23737;
+    border: 1px solid #e23737;
+  }
+  #mainNav .navbar-toggler:focus {
+    outline: none;
+  }
+  #mainNav .navbar-brand {
+    color: #000;
+    font-weight: 700;
+    padding: 0.9rem 0;
+  }
+  #mainNav .navbar-nav .nav-item:hover {
+    color: fade(#fff, 80%);
+    outline: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+  }
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+      background-color: transparent;
+      transition: background-color 0.3s ease-in-out;
+    }
+    #mainNav .navbar-brand {
+      padding: 0.5rem 0;
+      color: rgba(255, 255, 255, 0.5);
+    }
+    #mainNav .nav-link {
+      transition: none;
+      padding: 2rem 1.5rem;
+      color: rgba(255, 255, 255, 0.5);
+    }
+    #mainNav .nav-link:hover {
+      color: rgba(255, 255, 255, 0.75);
+    }
+    #mainNav .nav-link:active {
+      color: #fff;
+    }
+    #mainNav.navbar-shrink {
+      background-color: #fff;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      color: #000;
+    }
+    #mainNav.navbar-shrink .nav-link {
+      color: #000;
+      padding: 1.5rem 1.5rem 1.25rem;
+      border-bottom: 0.25rem solid transparent;
+    }
+    #mainNav.navbar-shrink .nav-link:hover {
+      color: #64a19d;
+    }
+    #mainNav.navbar-shrink .nav-link:active {
+      color: #467370;
+    }
+    #mainNav.navbar-shrink .nav-link.active {
+      color: #64a19d;
+      outline: none;
+      border-bottom: 0.25rem solid #64a19d;
+    }
+  }
+
+.btn {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.25rem 2rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+  }
+.masterhead{
+    position: relative;
+  width: 100%;
+  height: 772px;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(../images/bg-masthead.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masterhead h1, .masterhead .h1 {
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 3.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+  }
+  .masterhead h2, .masterhead .h2 {
+    max-width: 40rem;
+    font-size: 1.8rem;
+  }
+
+  .about-section {
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  }
+  .about-section p {
+    margin-bottom: 5rem;
+  }
+  
+  .projects-section {
+    padding: 10rem 0;
+  }
+  .projects-section .featured-text {
+    padding: 2rem;
+  }
+
+#about{
+    height: 800px;
+    padding-top: 150px;
+}
+#about h2{
+    font-size: 80px;
+}
+#about p{
+    font-size: 20px;
+}
+#aboutimg{
+    position: absolute;
+  left: 0px;
+  top: 772px;
+  z-index: -1;
+  height: 800px;
+  width: 100%;
+}
+#contact{
+    height: 1100px;
+    padding-top: 100px;
+}
+#contact h2{
+    font-size: 80px;
+}
+
+#contactimg{
+    position: absolute;
+  left: 0px;
+  top: 772px;
+  z-index: -1;
+  height: 1100px;
+  width: 100%;
+}
+
+.contact-section {
+    padding-top: 5rem;
+}
+.contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d;
+}
+.contact-section .card h4, .contact-section .card .h4 {
+    font-size: 1.2rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+.contact-section .card hr {
+    opacity: 1;
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 3rem;
+}
+.contact-section .social {
+    margin-top: 4rem;
+}
+
+.contact-section .social a {
+    text-align: center;
+    height: 5rem;
+    width: 5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 5rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+.contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+.contact-section .social a:active {
+    color: #fff;
+}
+#email{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+  
+.signup-section {
+    padding: 5rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.signup-section .form-signup input {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+}
+
+#term{
+    height: 800px;
+    padding-top: 100px;
+}
+#term h2{
+    font-size: 80px;
+}
+
+#termimg{
+    position: absolute;
+  left: 0px;
+  top: 772px;
+  z-index: -1;
+  height: 800px;
+  width: 100%;
+}
+h3, p{
+    text-align: left;
+    color: white;
+}
+
+#addstore{
+    height: 800px;
+    padding-top: 70px;
+}
+#addstore h2{
+    font-size: 80px;
+}
+
+label{
+    color: white;
+}
+
+#login{
+    height: 800px;
+    padding-top: 20px;
+}
+#reg{
+    height: 850px;
+    padding-top: 70px;
+}
+#regcard{
+    height: 500px;
+}
+#regimg{
+    position: absolute;
+  left: 0px;
+  top: 772px;
+  z-index: -1;
+  height: 850px;
+  width: 100%;
+}
+#reg h2{
+    color: white;
+}
+#reg a u{
+    color: rgb(151, 149, 149);
+    text-decoration: none;
+}
+#login a u{
+    color: rgb(151, 149, 149);
+    text-decoration: none;
+}
+
+#card{
+    width: 18rem;
+    margin: 20px;
+}
+.cardspan{
+    font-weight: bold;
+}
+.cardmain{
+    position: relative;
+    display: inline-flex;
+
+}
+#show{
+    height: 800px;
+    padding-top: 90px;
+}
+#show h2{
+    font-size: 80px;
+}
+#search{
+    height: 800px;
+    padding-top: 90px;
+}
+#search h2{
+    font-size: 80px;
+}
+#searchcard{
+    display: inline-block;
+}
+#google {
+  width: 250px;
+  margin-top: 15px;
+  height: 60px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #f81414;
+  color: white;
+  border: 0;
+  letter-spacing: 1.5px;
+}
+
+.kep-login-facebook.metro{
+  background-color: #3b5998;
+  
+}
